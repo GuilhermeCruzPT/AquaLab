@@ -58,7 +58,7 @@ O projeto é desenvolvido com uma abordagem multidisciplinar, combinando robóti
 - **Drone aquático**: Para maior estabilidade e eficiência na recolha de dados.
 - **Sensores**: Para medir temperatura da água, temperatura ambiente, humidade relativa, pH e turbidez.
 - **Transmissão de dados via rádio**: Permite monitorização remota em tempo real.
-- **Transmissão de imagem via rádio**: Permite vizualização remota em tempo real.
+- **Transmissão de imagem via rádio**: Permite visualização remota em tempo real.
 - **Website informativo**: Desenvolvido para apresentar os dados recolhidos e promover o projeto.
 
 ## Sustentabilidade
