@@ -93,51 +93,67 @@ Caso o projeto avance para a fase de mentoria, a equipa pretende focar-se nos se
 
 Estas melhorias irão potencializar a eficiência do AquaLab e ampliar a sua aplicação em áreas como pesquisa ambiental, educação e sustentabilidade.
 
-## Enquadramento nas Categorias da TecStorm
+## Enquadramento nas Categorias da TecStorm  
 
-1️⃣ Connected Communities & Digital Inclusion
-🔗 Link: Connected Communities & Digital Inclusion
+O projeto **AquaLab** pode ser enquadrado em diferentes categorias da **TecStorm**, pois sua abordagem multidisciplinar envolve tecnologia, sustentabilidade e inovação. Abaixo está a análise de como ele se relaciona com cada uma delas:  
 
-💡 Como o AquaLab se encaixa?
+### **1️⃣ Connected Communities & Digital Inclusion**  
+🔗 [Link para a categoria](https://www.tecstorm.pt/connected-communities---digital-inclusion)  
 
-O AquaLab promove a inclusão digital ao fornecer uma plataforma online acessível para monitoramento ambiental, permitindo que comunidades, escolas e pesquisadores tenham acesso a dados sobre a qualidade da água.
-Ao democratizar o acesso a informações ambientais, o projeto incentiva a educação ambiental e a participação da sociedade na conservação de recursos hídricos.
-2️⃣ Digital Energy & Smart Revolution
-🔗 Link: Digital Energy & Smart Revolution
+💡 **Como o AquaLab se encaixa?**  
+- O AquaLab promove a **inclusão digital** ao fornecer uma plataforma online acessível para monitoramento ambiental, permitindo que comunidades, escolas e pesquisadores tenham acesso a dados sobre a qualidade da água.  
+- Democratiza o acesso a informações ambientais, incentivando a **educação ambiental** e a participação ativa da sociedade na conservação de recursos hídricos.  
 
-💡 Como o AquaLab se encaixa?
+---
 
-O projeto pode integrar soluções energéticas inteligentes, como painéis solares para alimentar o drone, tornando-o mais sustentável e autônomo.
-A coleta e análise de dados por sensores inteligentes refletem o conceito de digitalização e automação no monitoramento ambiental, promovendo uma revolução digital na gestão de recursos naturais.
-3️⃣ Inclusive Smart Mobility For All
-🔗 Link: Inclusive Smart Mobility For All
+### **2️⃣ Digital Energy & Smart Revolution**  
+🔗 [Link para a categoria](https://www.tecstorm.pt/digital-energy---smart-revolution)  
 
-💡 Como o AquaLab se encaixa?
+💡 **Como o AquaLab se encaixa?**  
+- O projeto pode integrar **soluções energéticas inteligentes**, como **painéis solares**, para alimentar o drone, tornando-o mais sustentável e autônomo.  
+- A coleta e análise de dados por **sensores inteligentes** refletem o conceito de digitalização e automação no monitoramento ambiental, promovendo uma **revolução digital na gestão de recursos naturais**.  
 
-O AquaLab é um exemplo de mobilidade inteligente aplicada ao ambiente aquático, permitindo o deslocamento autônomo de um drone para monitoramento ambiental.
-O projeto pode ser adaptado para ajudar comunidades costeiras e ribeirinhas a monitorar e proteger suas águas de forma acessível e eficiente.
-4️⃣ Sustainable Smart Construction: Engineering a Greener Tomorrow
-🔗 Link: Sustainable Smart Construction
+---
 
-💡 Como o AquaLab se encaixa?
+### **3️⃣ Inclusive Smart Mobility For All**  
+🔗 [Link para a categoria](https://www.tecstorm.pt/inclusive-smart-mobility-for-all)  
 
-O projeto utiliza tecnologia para monitorar e proteger os recursos hídricos, fundamentais para a construção sustentável e o planejamento urbano inteligente.
-Os dados coletados pelo AquaLab podem auxiliar engenheiros e gestores ambientais na tomada de decisões sobre saneamento, gestão de recursos hídricos e impacto ambiental de construções.
-5️⃣ Healthy and Green Living in a Digital World
-🔗 Link: Healthy and Green Living in a Digital World
+💡 **Como o AquaLab se encaixa?**  
+- O AquaLab representa um exemplo de **mobilidade inteligente no ambiente aquático**, permitindo deslocamento autônomo para monitoramento ambiental.  
+- Pode ser adaptado para auxiliar **comunidades costeiras e ribeirinhas** no monitoramento e proteção da água de forma acessível e eficiente.  
 
-💡 Como o AquaLab se encaixa?
+---
 
-Monitorar a qualidade da água está diretamente relacionado com a saúde pública e o bem-estar das comunidades.
-O AquaLab ajuda a identificar riscos ambientais, como poluição e contaminação da água, permitindo a implementação de medidas para garantir um ambiente mais saudável.
-Ao digitalizar a análise da qualidade da água, o projeto incentiva o uso da tecnologia para um futuro mais sustentável e consciente.
-📌 Conclusão
-O AquaLab pode ser encaixado em várias categorias, mas se alinha mais fortemente com:
-✅ Connected Communities & Digital Inclusion → Pelo impacto social e educativo na disponibilização de dados ambientais.
-✅ Healthy and Green Living in a Digital World → Pela relação direta com a qualidade da água e a sustentabilidade ambiental.
-✅ Sustainable Smart Construction → Pela contribuição para planejamento urbano e gestão sustentável dos recursos hídricos.
+### **4️⃣ Sustainable Smart Construction: Engineering a Greener Tomorrow**  
+🔗 [Link para a categoria](https://www.tecstorm.pt/sustainable-smart-construction)  
 
-Caso o objetivo do projeto seja explorado sob a ótica da mobilidade aquática inteligente ou energia sustentável, ele também pode ser posicionado em Inclusive Smart Mobility ou Digital Energy & Smart Revolution.
+💡 **Como o AquaLab se encaixa?**  
+- O projeto usa tecnologia para **monitorar e proteger os recursos hídricos**, fundamentais para planejamento urbano e construção sustentável.  
+- Os dados coletados podem **auxiliar engenheiros e gestores ambientais** na tomada de decisões sobre **saneamento, gestão hídrica e impacto ambiental de construções**.  
+
+---
+
+### **5️⃣ Healthy and Green Living in a Digital World**  
+🔗 [Link para a categoria](https://www.tecstorm.pt/healthy-and-green-living-in-a-digital-world)  
+
+💡 **Como o AquaLab se encaixa?**  
+- Monitorar a **qualidade da água** está diretamente ligado à **saúde pública e ao bem-estar** das comunidades.  
+- O AquaLab ajuda a **identificar riscos ambientais**, como **poluição e contaminação**, permitindo a implementação de medidas corretivas.  
+- Ao digitalizar a análise da qualidade da água, o projeto incentiva o uso da tecnologia para um **futuro mais sustentável e consciente**.  
+
+---
+
+## 📌 Conclusão  
+
+O **AquaLab** se alinha fortemente com as seguintes categorias:  
+
+✅ **Connected Communities & Digital Inclusion** → Por disponibilizar dados ambientais de forma acessível.  
+✅ **Healthy and Green Living in a Digital World** → Pela relação direta com a qualidade da água e sustentabilidade ambiental.  
+✅ **Sustainable Smart Construction** → Pela contribuição para planejamento urbano e gestão sustentável da água.  
+
+Caso o projeto seja explorado sob a ótica da **mobilidade aquática inteligente** ou **energia sustentável**, ele também pode ser posicionado em **Inclusive Smart Mobility** e **Digital Energy & Smart Revolution**.  
+
+Esses fatores tornam o **AquaLab** um projeto inovador, com aplicações em diversas áreas da sustentabilidade e da tecnologia. 🌍🚀
 
 ![Arquitetura do Projeto - Oficial](https://github.com/user-attachments/assets/290bb5ea-d856-42d6-84d9-59aa2dd582c5)
 
