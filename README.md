@@ -15,6 +15,7 @@
 **Categorias**:
 
 - Connected Communities & Digital Inclusion
+- Digital Energy & Smart Revolution
 - Inclusive Smart Mobility For All
 - Sustainable Smart Construction: Engineering a Greener Tomorrow
 - Healthy and Green Living in a Digital World
