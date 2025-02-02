@@ -158,6 +158,7 @@ Esses fatores tornam o **AquaLab** um projeto inovador, com aplicações em dive
 ## 📌 Anexos 
 
 ![Arquitetura do Projeto - Oficial](https://github.com/user-attachments/assets/290bb5ea-d856-42d6-84d9-59aa2dd582c5)
+![AqualLab](https://github.com/user-attachments/assets/a1cc468f-3615-48fe-af51-fd0403b3f3a6)
 ![Prototipo Imagem (1)](https://github.com/user-attachments/assets/f2917af6-c218-4fe1-8f38-dc2ae58535ba)
 ![Prototipo Imagem (2)](https://github.com/user-attachments/assets/b6c68e19-af0c-4e9c-abf0-c05f99aa72ca)
 ![Prototipo Imagem (3)](https://github.com/user-attachments/assets/9c124d89-8c8f-40de-8484-d046221d2227)
