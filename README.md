@@ -1,4 +1,4 @@
-# Projeto AquaLab
+# Relatório do Projeto AquaLab
 
 ## Identificação do Projeto
 
@@ -23,13 +23,18 @@
 
 O AquaLab é um drone aquático baseado num catamarã que tem como objetivo a monitorização ambiental e a recolha de dados sobre a qualidade da água.
 
+##  Justificação da pertinência do projeto
+
+O projeto AquaLab tem como estratégia de incentivar as entidades escolares, empresas, organizações, entusiastas da robótica e as pessoas a terem interesse pela robótica e ver uma das muitas coisas que poderemos fazer com a mesma, também é interessante optar por 
+explorar os diversos ambientes aquáticos (rios, lagos, oceanos) e o que tem para nos dar de conhecimento, pois o Oceano é o maior e menos lugar explorado do planeta, menos de 5% da sua extensão é conhecida, e por essa razão a próxima geração de exploradores e investigadores iram ter oportunidades significativas de pesquisa e investigação, pois o avanço da tecnologia irá ter um papel fundamental nesta questão, por essa razão opta-mos por escolher o tema referido.
+
 ## O problema a ser trabalhado
 
 A monitorização dos ecossistemas aquáticos é fundamental para compreender os impactos das atividades humanas no meio ambiente. No entanto, a recolha de dados em tempo real e de forma acessível ainda é um desafio.
 
 ## O potencial comercial da ideia
 
-O AquaLab pode ser utilizado por instituições de ensino, empresas, organizações e entusiastas da robótica. A combinação de um drone aquático com um website informativo permite a divulgação de dados em tempo real, ampliando o impacto do projeto.
+O AquaLab pode ser utilizado por instituições de ensino, empresas, organizações, entusiastas da robótica e por qualquer pessoa. A combinação de um drone aquático com um website informativo permite a divulgação de dados em tempo real, ampliando o impacto do projeto.
 
 ## Os resultados esperados
 
@@ -40,6 +45,7 @@ O AquaLab pode ser utilizado por instituições de ensino, empresas, organizaç�
 ## Descrição do Protótipo
 
 O projeto é um drone aquático baseado num catamaran, que vai medir a temperatura da água do mar, a temperatura ambiente, a humidade relativa do ar, o pH da água do mar, turbidez da água e irá fazer telemetria de imagem via rádio.
+Os dados são enviados via rádio do Arduíno do drone aquático para outro Arduíno que está em terra, esse Arduíno mostra os dados num LCD 20x4 e também envia os mesmos para uma base de dados, que por sua vez está ligada a um website em que a pessoa pode ver em tempo real os dados mostrados no mesmo.
 
 ## Motivação da Equipa
 
@@ -52,6 +58,7 @@ O projeto é desenvolvido com uma abordagem multidisciplinar, combinando robóti
 - **Drone aquático**: Para maior estabilidade e eficiência na recolha de dados.
 - **Sensores**: Para medir temperatura da água, temperatura ambiente, humidade relativa, pH e turbidez.
 - **Transmissão de dados via rádio**: Permite monitorização remota em tempo real.
+- **Transmissão de imagem via rádio**: Permite vizualização remota em tempo real.
 - **Website informativo**: Desenvolvido para apresentar os dados recolhidos e promover o projeto.
 
 ## Sustentabilidade
@@ -85,3 +92,6 @@ Caso o projeto avance para a fase de mentoria, a equipe pretende focar nos segui
 - **Testes em diferentes ambientes aquáticos**: Realizar mais testes em diversos ambientes aquáticos (rios, lagos, oceanos) para garantir a versatilidade do sistema e a confiabilidade dos dados.
 
 Essas melhorias irão potencializar a eficiência do AquaLab e ampliar sua aplicação em áreas como pesquisa ambiental, educação e sustentabilidade.
+
+![Arquitetura do Projeto - Oficial](https://github.com/user-attachments/assets/290bb5ea-d856-42d6-84d9-59aa2dd582c5)
+
