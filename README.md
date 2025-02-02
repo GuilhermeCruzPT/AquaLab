@@ -143,11 +143,11 @@ O projeto **AquaLab** pode ser enquadrado em diferentes categorias da **TecStorm
 
 ---
 
-O **AquaLab** se alinha fortemente com as seguintes categorias:  
+O **AquaLab** alinha-se fortemente com as seguintes categorias:  
 
 ✅ **Connected Communities & Digital Inclusion** → Por disponibilizar dados ambientais de forma acessível.  
 ✅ **Healthy and Green Living in a Digital World** → Pela relação direta com a qualidade da água e sustentabilidade ambiental.  
-✅ **Sustainable Smart Construction** → Pela contribuição para planejamento urbano e gestão sustentável da água.  
+✅ **Sustainable Smart Construction** → Pela contribuição para planeamento urbano e gestão sustentável da água.  
 
 Caso o projeto seja explorado sob a ótica da **mobilidade aquática inteligente** ou **energia sustentável**, ele também pode ser posicionado em **Inclusive Smart Mobility** e **Digital Energy & Smart Revolution**.  
 
