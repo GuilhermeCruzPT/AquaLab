@@ -149,7 +149,7 @@ export default {
 
 
     const chartTitles = computed(() => ({
-      lineChart: `Temperatura Ambiente(ºC), PH (ph), Turbidez (NTU), Temperatura da Água (ºC)`,
+      lineChart: `Temperatura Ambiente(ºC), PH (ph), Turbidez (NTU), Temperatura da Água (ºC), Humidade Relativa do Ar (%) e Condutividade Elétrica (S/m)`,
       temperatureChart: `Temperatura Ambiente (ºC)`,
       temperatureWaterChart: `Temperatura da Água (ºC)`,
       phChart: `PH (ph)`,
