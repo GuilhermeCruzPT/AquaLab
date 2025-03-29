@@ -1,0 +1,15 @@
+CREATE TABLE sensor_data (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    type VARCHAR(50) NOT NULL,
+    value DECIMAL(10,2) NOT NULL,
+    recorded_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+migration->
+
+    Schema::create('sensor_data', function (Blueprint $table) {
+            $table->id();
+            $table->string('type', 50);
+            $table->decimal('value', 10, 2);
+            $table->timestamp('recorded_at')->default(DB::raw('CURRENT_TIMESTAMP'));
+        });
