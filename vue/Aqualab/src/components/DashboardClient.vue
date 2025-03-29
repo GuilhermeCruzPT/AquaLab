@@ -68,6 +68,10 @@
           <GChart v-if="turbidityData.length" type="AreaChart" :data="turbidityData"
             :options="chartOptions3(chartTitles.turbityChart)" />
         </div>
+        <div class="col-md-6">
+          <GChart v-if="conductivityData.length" type="AreaChart" :data="conductivityData"
+            :options="chartOptions6(chartTitles.conductivityChart)" />
+        </div>
       </div>
 
 
@@ -139,6 +143,7 @@ export default {
     const turbidityData = ref([]);
     const phData = ref([]);
     const humidityData = ref([]);
+    const conductivityData = ref([]);
     const lineChartData = ref([]);
     const temperatureWaterData = ref([]);
 
@@ -149,7 +154,8 @@ export default {
       temperatureWaterChart: `Temperatura da Água (ºC)`,
       phChart: `PH (ph)`,
       turbityChart: `Turbidez (NTU)`,
-      humidityChart: "Humidade Relativa do Ar (%)"
+      humidityChart: "Humidade Relativa do Ar (%)",
+      conductivityChart: "Condutividade Elétrica (S/m)"
     }));
 
     const fetchData = async () => {
@@ -165,6 +171,7 @@ export default {
         turbidityData.value = formatChartData(response.data.turbidity, labelType, "Turbidez");
         temperatureWaterData.value = formatChartData(response.data.temperatureWater, labelType, "Temperatura da Água");
         humidityData.value = formatChartData(response.data.humidity, labelType, "Humidade Relativa do Ar");
+        conductivityData.value = formatChartData(response.data.conductivity, labelType, "Condutividade Elétrica");
 
         lineChartData.value = formatLineChartData(
           response.data.temperature,
@@ -276,6 +283,16 @@ export default {
       colors: ["#ff0062"],
     });
 
+    const chartOptions6 = (title) => ({
+      title: title,
+      width: '100%',
+      height: window.innerWidth < 768 ? 300 : 500,
+      legend: { position: "bottom" },
+      is3D: false,
+      backgroundColor: "transparent",
+      colors: ["#db7474"],
+    });
+
     const sendEmail = async () => {
       try {
         const content = document.querySelector("#content");
@@ -345,12 +362,14 @@ export default {
       phData,
       turbidityData,
       humidityData,
+      conductivityData,
       fetchData,
       chartOptions,
       chartOptions2,
       chartOptions3,
       chartOptions5,
       lineChartData,
+      chartOptions6,
       chartTitles,
       chartOptions4,
       sendEmail,
