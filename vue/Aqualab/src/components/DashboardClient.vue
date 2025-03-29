@@ -178,6 +178,8 @@ export default {
           response.data.ph,
           response.data.turbidity,
           response.data.temperatureWater,
+          response.data.humidity,
+          response.data.conductivity,
           labelType
         );
       } catch (error) {
@@ -206,14 +208,16 @@ export default {
       return formatted;
     };
 
-    const formatLineChartData = (temperature, ph, turbidity,temperatureWater, labelType) => {
-      const formatted = [[labelType, "Temperatura Ambiente", "PH", "Turbidez", "Temperatura da Água"]];
+    const formatLineChartData = (temperature, ph, turbidity,temperatureWater, humidity, conductivity, labelType) => {
+      const formatted = [[labelType, "Temperatura Ambiente", "PH", "Turbidez", "Temperatura da Água", "Humidade Relativa do Ar", "Condutividade Elétrica"]];
 
       const allKeys = [...new Set([
         ...Object.keys(temperature),
         ...Object.keys(ph),
         ...Object.keys(turbidity),
         ...Object.keys(temperatureWater),
+        ...Object.keys(humidity),
+        ...Object.keys(conductivity),
       ])].sort((a, b) => a - b);
 
       if (allKeys.length === 0) {
@@ -225,7 +229,9 @@ export default {
             parseFloat(temperature[key] || 0),
             parseFloat(ph[key] || 0),
             parseFloat(turbidity[key] || 0),
-            parseFloat(temperatureWater[key] || 0)
+            parseFloat(temperatureWater[key] || 0),
+            parseFloat(humidity[key] || 0),
+            parseFloat(conductivity[key] || 0)
           ]);
         });
       }
@@ -240,7 +246,7 @@ export default {
       legend: { position: "bottom" },
       is3D: false,
       backgroundColor: "transparent",
-      colors: ["#55b8ca", "#4CAF50", "#FF9800", "#0852a6"],
+      colors: ["#55b8ca", "#4CAF50", "#FF9800", "#0852a6", "#ff0062", "#db7474"],
     });
 
     const chartOptions2 = (title) => ({
