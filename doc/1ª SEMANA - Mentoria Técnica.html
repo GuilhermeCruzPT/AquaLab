@@ -1,0 +1,147 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome file</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><h1 id="ª-semana---mentoria-técnica">1ª SEMANA - Mentoria Técnica</h1>
+<p><img src="https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/291/713/datas/gallery.jpg" alt="enter image description here"></p>
+<h1 id="descrição-detalhada-do-protótipo-aqualab"># Descrição Detalhada do Protótipo AquaLab</h1>
+<p>O <strong>AquaLab</strong> é um drone aquático inovador baseado num design de catamarã, desenvolvido para <strong>monitorizar e analisar a qualidade da água em tempo real</strong> em ambientes aquáticos. Equipado com <strong>sensores, telemetria e um sistema de recolha de amostras</strong>, este protótipo utiliza <strong>Arduino e comunicação sem fios</strong> para fornecer dados ambientais de forma eficiente e sustentável, contribuindo para a preservação dos ecossistemas aquáticos.</p>
+<hr>
+<h2 id="🌊-principais-componentes-e-funcionalidades">🌊 Principais Componentes e Funcionalidades</h2>
+<h3 id="️⃣-sensores-para-monitorização-da-qualidade-da-água">1️⃣ Sensores para Monitorização da Qualidade da Água</h3>
+<ul>
+<li><strong>Sensor de Turbidez</strong>: Mede a transparência da água, identificando partículas em suspensão.</li>
+<li><strong>Sensor de pH</strong> <em>(implementação a definir)</em>: Poderá ser utilizado para medir a acidez ou alcalinidade da água.</li>
+<li><strong>Sensor de Condutividade Elétrica</strong> <em>(implementação a definir)</em>: Pode ser utilizado para medir a quantidade de sais dissolvidos na água, indicando possíveis níveis de poluição.</li>
+</ul>
+<hr>
+<h3 id="️⃣-sistema-de-recolha-de-amostras">2️⃣ Sistema de Recolha de Amostras</h3>
+<ul>
+<li><strong>Mini bomba de água vertical</strong>: Responsável por recolher amostras de água.</li>
+<li><strong>Recipiente de 50 ml</strong>: Armazena a amostra recolhida para posterior análise.</li>
+<li><strong>Sensor de Nível de Água</strong>: Monitoriza a capacidade do recipiente e interrompe automaticamente a recolha quando estiver cheio.</li>
+<li>O sistema de recolha apenas será ativado quando necessário, evitando desperdício de energia e otimizando a operação.</li>
+</ul>
+<hr>
+<h3 id="️⃣-telemetria-de-imagem-via-rádio">3️⃣ Telemetria de Imagem via Rádio</h3>
+<ul>
+<li><strong>Câmera FPV</strong>: Captura imagens e transmite em tempo real.</li>
+<li><strong>Kit RC832 e TS832</strong>: Sistema de transmissão e receção de vídeo via rádio.</li>
+<li><strong>Monitor LCD FPV</strong>: Permite visualizar as imagens transmitidas pelo drone aquático em tempo real.</li>
+</ul>
+<hr>
+<h3 id="️⃣-transmissão-e-visualização-dos-dados-em-tempo-real">4️⃣ Transmissão e Visualização dos Dados em Tempo Real</h3>
+<ul>
+<li><strong>Comunicação entre Arduinos</strong>: O Arduino a bordo do <strong>AquaLab</strong> transmite os dados dos sensores para outro Arduino em terra via rádio.</li>
+<li><strong>Display LCD 20x4</strong>: Apresenta os dados recolhidos pelo drone aquático em tempo real.</li>
+</ul>
+<p>💡 Ainda estamos a avaliar a melhor abordagem para a disponibilização dos dados:</p>
+<ul>
+<li><strong>Transmissão em Tempo Real para um Website</strong>: Se viável, os dados serão enviados diretamente para um site acessível online.</li>
+<li><strong>Geração de Ficheiro para Upload Posterior</strong>: Caso os sensores de <strong>pH e condutividade elétrica</strong> sejam utilizados apenas para análise em terra, poderá fazer mais sentido armazenar os dados num ficheiro e carregá-los no site após cada missão.</li>
+</ul>
+<hr>
+<h3 id="️⃣-sistema-de-iluminação-e-sinalização">5️⃣ Sistema de Iluminação e Sinalização</h3>
+<ul>
+<li><strong>Barra de luz LED frontal</strong>: Ilumina a área à frente do drone aquático para melhor visibilidade em condições de pouca luz.</li>
+<li><strong>Faróis LED quadrados</strong>: Complementam a iluminação, garantindo um melhor alcance.</li>
+<li><strong>Tiras LED laterais para sinalização:</strong>
+<ul>
+<li><strong>Lado direito</strong>: LED verde.</li>
+<li><strong>Lado esquerdo</strong>: LED vermelho.</li>
+</ul>
+</li>
+<li>Estes LEDs laterais ajudam a indicar a posição e orientação do drone aquático, especialmente em ambientes com pouca visibilidade.</li>
+</ul>
+<hr>
+<h3 id="️⃣-sistema-de-alimentação-sustentável">6️⃣ Sistema de Alimentação Sustentável</h3>
+<ul>
+<li><strong>Dois painéis solares</strong>: Responsáveis por fornecer energia adicional ao sistema, ajudando a alimentar os LEDs e reduzindo a dependência de baterias externas.</li>
+</ul>
+<hr>
+<h3 id="️⃣-decisão-estratégica-sobre-a-medição-da-qualidade-da-água">7️⃣ Decisão Estratégica Sobre a Medição da Qualidade da Água</h3>
+<ul>
+<li>Ainda está em estudo se os sensores de <strong>pH e condutividade elétrica</strong> serão integrados diretamente no drone aquático ou se as medições serão realizadas em terra com a amostra recolhida.</li>
+<li>Ambas as abordagens possuem vantagens e desvantagens, sendo que a decisão será tomada com base na precisão dos sensores e na facilidade de implementação no protótipo.</li>
+</ul>
+<hr>
+<h2 id="🎯-objetivo-do-projeto">🎯 Objetivo do Projeto</h2>
+<p>O <strong>AquaLab</strong> pretende ser uma ferramenta <strong>acessível, eficiente e sustentável</strong> para a <strong>monitorização da qualidade da água</strong>, combinando <strong>sensores ambientais, telemetria de imagem e recolha de amostras</strong>. Este drone aquático poderá ser utilizado para <strong>estudos ambientais, apoio à investigação científica e monitorização de locais de difícil acesso</strong>.</p>
+<h1 id="📦-lista-de-materiais---aqualab">📦 Lista de Materiais - AquaLab</h1>
+<h2 id="🔌-cabos-e-conectores">🔌 Cabos e Conectores</h2>
+<ul>
+<li><strong>Kit Jumper Cable 10CM (MM/MF/FF)</strong> - x2</li>
+<li><strong>Kit Jumper Cable 20CM (MM/MF/FF)</strong> - x1</li>
+<li><strong>Cabo de extensão de servo (100mm)</strong> - x10</li>
+<li><strong>Cabo de extensão de servo dupla (150mm)</strong> - x5</li>
+<li><strong>Cabo de extensão de servo tripla (150mm)</strong> - x2</li>
+<li><strong>Conector Male T-Plug</strong> - x1</li>
+<li><strong>Conector Male JST Plug</strong> - x10</li>
+<li><strong>Conector Female JST Plug</strong> - x10</li>
+<li><strong>Conector DC</strong> - x1</li>
+</ul>
+<h2 id="⚙️-componentes-eletrônicos">⚙️ Componentes Eletrônicos</h2>
+<ul>
+<li><strong>Arduino Uno</strong> - x2</li>
+<li><strong>Arduino Nano</strong> - x1</li>
+<li><strong>433Mhz RF Kit</strong> - x1</li>
+<li><strong>Módulo regulador de tensão (5A)</strong> - x1</li>
+<li><strong>Motor Shield (MX1508)</strong> - x1</li>
+<li><strong>Motor Shield (L298N)</strong> - x1</li>
+<li><strong>Capacitor 10V 470UF</strong> - x2</li>
+<li><strong>Fio de cobre elétrico (26 AWG, 5m)</strong> - x1</li>
+</ul>
+<h2 id="🔋-alimentação-e-energia">🔋 Alimentação e Energia</h2>
+<ul>
+<li><strong>Painel solar 58x23mm (0.23W 5V)</strong> - x2</li>
+<li><strong>Bateria Lipo (7.4V 5000mAh)</strong> - x1</li>
+<li><strong>Power Switch de conector servo</strong> - x1</li>
+<li><strong>Power Switch de conector JST</strong> - x2</li>
+</ul>
+<h2 id="📡-sensores">📡 Sensores</h2>
+<ul>
+<li><strong>Sensor DH22 (Temperatura e Humidade)</strong> - x1</li>
+<li><strong>Sensor de nível de água</strong> - x1</li>
+<li><strong>Sensor de Turbidez</strong> - x1</li>
+<li><strong>Sensor de Condutividade Elétrica</strong> - x1</li>
+<li><strong>Sensor de PH</strong> - x1</li>
+<li><strong>Sensor DS18B20 (Temperatura da água)</strong> - x1</li>
+</ul>
+<h2 id="🚤-motores-e-propulsão">🚤 Motores e Propulsão</h2>
+<ul>
+<li><strong>Kit de hélices para barco RC</strong> - x1</li>
+<li><strong>Mini bomba de água vertical</strong> - x1</li>
+</ul>
+<h2 id="💡-iluminação">💡 Iluminação</h2>
+<ul>
+<li><strong>LED Red 60x8mm</strong> - x1</li>
+<li><strong>LED Green 60x8mm</strong> - x1</li>
+<li><strong>LED White 60x8mm</strong> - x1</li>
+<li><strong>Faróis quadrados de LED RC</strong> - x1</li>
+<li><strong>Barra de luz de LEDs RC (53mm)</strong> - x1</li>
+</ul>
+<h2 id="🎥-telemetria-e-monitorização">🎥 Telemetria e Monitorização</h2>
+<ul>
+<li><strong>Câmera FPV</strong> - x1</li>
+<li><strong>LCD FPV Monitor</strong> - x1</li>
+<li><strong>RC832 e TS832 Kit (Transmissão de vídeo via rádio)</strong> - x1</li>
+<li><strong>Display LCD 20x4</strong> - x1</li>
+</ul>
+<h2 id="🏗️-estrutura-e-outros">🏗️ Estrutura e Outros</h2>
+<ul>
+<li><strong>Recipiente 50ml (Recolha de amostras)</strong> - x1</li>
+<li><strong>Tubo plástico maleável (1m)</strong> - x1</li>
+<li><strong>Drone aquático (Impresso em 3D)</strong> - x1</li>
+<li><strong>Filamento 3D (PLA)</strong> - x1</li>
+</ul>
+</div>
+</body>
+
+</html>

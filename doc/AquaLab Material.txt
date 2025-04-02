@@ -1,0 +1,40 @@
+Kit Jumper Cable 10CM (MM/MF/FF) - x2
+Kit Jumper Cable 20CM (MM/MF/FF) - x1
+Kit de hélices para barco rc - x1
+Mini bomba de água vertical - x1
+Sensor DH22 - x1
+Sensor de nível de água - x1
+Sensor de Turbidez - x1
+Painel solar 58x23mm (0.23W 5V) - x2
+Módulo regulador de tensão (5A) - x1
+Bateria Lipo (7.4V 5000mAh) - x1
+Conector DC - x1
+Conector Male T-Plug - x1
+Motor Shield (MX1508) - x1
+Motor Shield (L298N) - x1
+Cabo de extensão de servo (100mm) - x10
+Cabo de extensão de servo dupla (150mm) - x5
+Cabo de extensão de servo tripla (150mm) - x2
+Conector Male JST Plug - x10
+Conector Female JST Plug - x10
+Power Switch de conector servo - x1
+Power Switch de conector JST - x2
+Led Red 60x8mm - x1
+Led Green 60x8mm - x1
+Led White 60x8mm - x1
+Faróis quadrados de led rc - x1
+Barra de luz de leds rc (53mm) - x1
+Capacitor 10V 470UF - x2
+Recipiente 50ml - x1
+Arduino Uno - x2
+Arduino Nano - x1
+Tubo plástico maleável (1m) - x1
+Fio de cobre elétrico (26 AWG, 5m) - x1
+433Mhz RF Kit - x1
+Câmera FPV - x1 
+Display LCD 20x4 - x1 
+LCD FPV Monitor - x1
+RC832 e TS832 Kit - x1
+Sensor de condutividade elétrica - x1
+Sensor de PH - x1
+Sensor DS18B20 - x1

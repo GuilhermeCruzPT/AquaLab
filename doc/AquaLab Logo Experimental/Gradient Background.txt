@@ -1,0 +1,5 @@
+https://coolors.co/gradient-maker/121212-121212-202020-2d2d2d-3a3a3a-4c4c4c?position=0,0,14,50,75,100&opacity=100,100,100,100,100,100&type=linear&rotation=45
+
+https://mycolor.space/gradient3?ori=to+right+top&hex=%23121212&hex2=%232D2D2D&hex3=%234C4C4C&submit=submit
+
+https://mycolor.space/gradient?ori=to+right+top&hex=%23121212&hex2=%234C4C4C&sub=1
