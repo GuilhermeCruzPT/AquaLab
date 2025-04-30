@@ -164,3 +164,12 @@ Esses fatores tornam o **AquaLab** um projeto inovador, com aplicações em dive
 ![Prototipo Imagem (2)](https://github.com/user-attachments/assets/b6c68e19-af0c-4e9c-abf0-c05f99aa72ca)
 ![Prototipo Imagem (3)](https://github.com/user-attachments/assets/9c124d89-8c8f-40de-8484-d046221d2227)
 ![Prototipo Imagem (4)](https://github.com/user-attachments/assets/c84113e5-612d-4d03-a281-7f65e9bb3bc6)
+
+![IMG_20200310_092151_7](https://github.com/user-attachments/assets/2c26b994-65a2-423a-a86a-25990fc7d5d0)
+![IMG_20200310_092142_0](https://github.com/user-attachments/assets/61495cae-5119-49e8-aa8c-e96f0b3a57e3)
+![IMG_20200305_145528_9](https://github.com/user-attachments/assets/7151f155-15f9-4b0f-b53e-63090015903b)
+![IMG_20200305_145516_8](https://github.com/user-attachments/assets/435a18ef-c0b3-4140-8a5e-dad24920f30f)
+![IMG_20250330_093101451](https://github.com/user-attachments/assets/0998f842-fa00-4053-8469-8fdd547898cf)
+![IMG_20250330_093106634](https://github.com/user-attachments/assets/1ba418fc-466f-4ac2-a43b-4e789e130e9b)
+![IMG_20250330_093122191](https://github.com/user-attachments/assets/af60d33e-c8ea-4ea7-ab15-175643d8b744)
+
