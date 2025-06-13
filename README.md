@@ -172,4 +172,7 @@ Esses fatores tornam o **AquaLab** um projeto inovador, com aplicações em dive
 ![IMG_20250330_093101451](https://github.com/user-attachments/assets/0998f842-fa00-4053-8469-8fdd547898cf)
 ![IMG_20250330_093106634](https://github.com/user-attachments/assets/1ba418fc-466f-4ac2-a43b-4e789e130e9b)
 ![IMG_20250330_093122191](https://github.com/user-attachments/assets/af60d33e-c8ea-4ea7-ab15-175643d8b744)
+![AquaLab - Project (500px)](https://github.com/user-attachments/assets/ab3d1644-7c73-49dc-88e9-da8d773055c9)
+
+
 
